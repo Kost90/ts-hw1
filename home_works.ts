@@ -115,6 +115,7 @@ class Student {
     this.attendance.push(present);
   }
 
+  
   getPerformanceRating(): number {
     const gradeValues: number[] = Object.values(this.grades);
 
